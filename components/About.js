@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import profile from "../public/profile.jpeg";
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
-          <Image
+          {/* <Image
             src={profile}
             alt="Profile"
             priority={true}
@@ -33,7 +33,7 @@ const About = () => {
             width={250}
             height={250}
             placeholder="blur"
-          />
+          /> */}
         </div>
       </div>
     </div>
